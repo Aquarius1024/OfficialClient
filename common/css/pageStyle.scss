@@ -1,0 +1,28 @@
+.content {
+  font-family: $font-family;
+  // border: 1px solid $uni-color-primary;
+}
+
+.flex,
+.flex_aic,
+.flex_aic_jcc,
+.flex_aic_jcsb {
+  display: flex;
+}
+
+/* 垂直居中 */
+.flex_aic,
+.flex_aic_jcc,
+.flex_aic_jcsb {
+  align-items: center;
+}
+
+/* 垂直居中，水平居中 */
+.flex_aic_jcc {
+  justify-content: center;
+}
+
+/* 垂直居中，两端对齐 */
+.flex_aic_jcsb {
+  justify-content: space-between;
+}

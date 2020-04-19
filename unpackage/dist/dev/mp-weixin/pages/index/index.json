@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "message-item": "/components/messageItem/messageItem"
+  }
+}
